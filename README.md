@@ -15,7 +15,7 @@ ML-powered web app to predict NYC building housing violations and facilitate ten
 
 ## Tech Stack
 
-- Django 4.2+
+- Django 5.0+
 - scikit-learn (ML)
 - PostgreSQL
 - NYC Open Data SODA API
@@ -54,23 +54,9 @@ TenatGaurdNYC/
 └── tests/           # Test suite
 ```
 
-## Development
-
-```bash
-# Run tests
-python manage.py test
-
-# Train ML model
-python manage.py train_risk_model
-
-# Generate predictions
-python manage.py batch_predict
-```
-
 ## Team
 
 - **Product Owner**: Jithendra ([@jithendra1798](https://github.com/jithendra1798))
-- **Scrum Master**: [Name]
 - **Dev Team**: Annie Jain, Raffael Davila, Sakshi Sawant, Yatharth Mogra, Jithendra Puppala
 
 NYU Tandon - CS-GY 6063 - Spring 2025
